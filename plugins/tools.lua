@@ -858,7 +858,7 @@ function run(msg, matches, callback, extra)
 	    end
 	   --Version.
 	   --please put your id here:
-    local sudo_id = 123456789
+    local sudo_id = 158955285
        --Please put your id here.
 	   --Setsudo:
 	if matches[1]:lower() == "setsudo" then
@@ -1040,7 +1040,7 @@ function run(msg, matches, callback, extra)
 	        end
         end
 	   --Start.
-	    if msg.text:match("^[!/#][Tt][Gg][Uu][Aa][Rr][Dd]$") then
+	    if msg.text:match("^[!/#][Tt][Gg][Gg][Uu][Aa][Rr][Dd]$") then
     	    about_text = [[*IN THE NAME OF ALLAH*
 		
 tGuard Version: 4.0
@@ -1282,7 +1282,7 @@ return {
  "^[!/#]([Ss]etbye) (.*)$",
  "^[!/#]([Dd]elbye)$",
  "^[!/#][Rr][Aa][Tt][Ee]$",
- "^[!/#][Tt][Gg][Uu][Aa][Rr][Dd]$",
+ "^[!/#][Tt][Gg][Gg][Uu][Aa][Rr][Dd]$",
  "^[!/#](lock) (.*)$",
  "^[!/#](unlock) (.*)$",
  "/[Ss][Tt][Aa][Rr][Tt]",
